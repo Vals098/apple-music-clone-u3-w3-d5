@@ -10,7 +10,10 @@ const Home = function () {
       <div className="p-4">
       <HeroSection/>
       <RadioEpisodesSection/>
-      <SongsSection/>
+      <h2 className="mt-4">Nuove uscite</h2>
+      <SongsSection title="Edoardo Bennato" query="edoardo-bennato"/>
+      <SongsSection title="883" query="883"/>
+      <SongsSection title="Queen" query="queen"/>
       </div>
     </div>
   )

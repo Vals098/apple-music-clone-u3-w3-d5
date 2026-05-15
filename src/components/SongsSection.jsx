@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
 import SongCard from "./SongCard"
 
-const SongsSection = function () {
+const SongsSection = function ({title, query}) {
   const [songs, setSongs] = useState([])
 
   useEffect(() => {
-    fetch("https://striveschool-api.herokuapp.com/api/deezer/search?q=queen")
+    fetch(`https://striveschool-api.herokuapp.com/api/deezer/search?q=${query}`)
       .then((response) => {
         return response.json()
       })
@@ -16,11 +16,12 @@ const SongsSection = function () {
       .catch((error) => {
         console.log(error)
       })
-  }, [])
+  }, [query])
 
   return (
-    <div className="mt-5">
-      <h2 className="mb-4">Nuove uscite</h2>
+    <div className="mb-5">
+      {/* <h2 className="mb-4">Nuove uscite</h2> */}
+        <h3 className="mb-2">{title}</h3>
       <div className="d-flex gap-3 overflow-auto">
         {songs.map((song) => (
           <SongCard
