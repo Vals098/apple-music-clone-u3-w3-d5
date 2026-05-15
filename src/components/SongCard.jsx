@@ -14,6 +14,9 @@ const SongCard = function ({ title, artist, image }) {
         {title}
       </h6>
 
+      <small className="text-secondary small">
+        {artist}
+      </small>
     </div>
   )
 }
