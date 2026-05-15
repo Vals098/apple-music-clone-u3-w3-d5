@@ -1,5 +1,6 @@
 import HeroSection from "./HeroSection"
 import NavBar from "./NavBar"
+import RadioEpisodesSection from "./RadioEpisodesSection"
 import SongsSection from "./SongsSection"
 
 const Home = function () {
@@ -8,6 +9,7 @@ const Home = function () {
         <NavBar />
       <div className="p-4">
       <HeroSection/>
+      <RadioEpisodesSection/>
       <SongsSection/>
       </div>
     </div>

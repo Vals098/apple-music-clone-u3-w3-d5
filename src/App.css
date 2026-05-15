@@ -15,6 +15,6 @@
 
 /* HOME */
 /* radio card */
-/* .radio-card h3 {
-  min-height: 100px;
-} */
+.radio-card h3 {
+  min-height: 80px;
+}
