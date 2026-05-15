@@ -1,0 +1,14 @@
+/* SIDEBAR */
+.search-input {
+  color: gray;
+}
+
+.search-input::placeholder {
+  color: gray;
+}
+
+.search-input:focus {
+  background-color: #212529;
+  color: lightgray;
+  box-shadow: none;
+}

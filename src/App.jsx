@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="vh-100 d-flex flex-column">
       <div className="d-flex flex-grow-1">
-        <SideBar />
+        <SideBar className="d-none d-md-block"/>
         <Home />
       </div>
       <Player />
