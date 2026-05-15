@@ -24,8 +24,31 @@
 }
 
 /* radio card */
+.radio-card {
+  border-radius: 25;
+}
+
 .radio-card h3 {
   min-height: 80px;
+}
+
+.radio-card:hover {
+  cursor: pointer;
+  background-color: #2a2a2a;
+
+  padding: 0.75rem;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+/* song card */
+.song-card:hover {
+  cursor: pointer;
+  background-color: #2a2a2a;
+
+  padding: 0.75rem;
+  border-radius: 12px;
+  transition: 0.2s;
 }
 
 html,

@@ -5,7 +5,7 @@ const SongCard = function ({ title, artist, image }) {
 
   return (
     <div
-      className="d-flex flex-column"
+      className="song-card d-flex flex-column"
       style={{ minWidth: "180px" }}
       onClick={() =>
         dispatch({
