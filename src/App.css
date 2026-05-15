@@ -18,3 +18,9 @@
 .radio-card h3 {
   min-height: 80px;
 }
+
+html,
+body,
+#root {
+  height: 100%;
+}
