@@ -32,3 +32,12 @@ body,
   padding: 0.5em;
   cursor: pointer;
 }
+
+.explore-card:hover {
+  background-color: #343434;
+}
+
+/* footer */
+footer {
+    background-color: #343434;
+}
