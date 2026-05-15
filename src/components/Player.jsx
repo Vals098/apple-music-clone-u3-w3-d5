@@ -19,7 +19,7 @@ const Player = function () {
           }}
         />
         <div>
-          <p className="mb-0">{selectedSong?.title}</p>
+          <p className="mb-0">{selectedSong?.title || "Select a song"}</p>
           <small>{selectedSong?.artist}</small>
         </div>
       </div>

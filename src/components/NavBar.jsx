@@ -4,7 +4,7 @@ const NavBar = function () {
   return (
     <>
       {/* MOBILE VIEW NAVBAR */}
-      <div className="d-flex d-md-none justify-content-between align-items-center p-3">
+      <div className="navbar d-flex d-md-none justify-content-between align-items-center p-3">
         <Dropdown>
           <Dropdown.Toggle variant="dark" className="text-danger">
             ☰
@@ -27,7 +27,7 @@ const NavBar = function () {
       </div>
 
       {/* MD AND UP VIEW NAVBAR */}
-      <div className="d-none d-md-flex align-items-center p-3 position-relative">
+      <div className="navbar d-none d-md-flex align-items-center p-3 position-relative">
         <img
           src="../../assets/logos/apple.svg"
           alt="apple music logo"
