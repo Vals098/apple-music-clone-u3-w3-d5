@@ -24,3 +24,11 @@ body,
 #root {
   height: 100%;
 }
+
+/* altro da esplorare */
+.explore-card {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  padding: 0.5em;
+  cursor: pointer;
+}

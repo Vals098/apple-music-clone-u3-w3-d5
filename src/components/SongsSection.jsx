@@ -21,7 +21,7 @@ const SongsSection = function ({title, query}) {
   return (
     <div className="mb-5">
       {/* <h2 className="mb-4">Nuove uscite</h2> */}
-        <h3 className="mb-2">{title}</h3>
+        <h4 className="mb-2">{title}</h4>
       <div className="d-flex gap-3 overflow-auto">
         {songs.map((song) => (
           <SongCard

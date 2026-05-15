@@ -1,3 +1,4 @@
+import ExploreSection from "./ExploreSection"
 import HeroSection from "./HeroSection"
 import NavBar from "./NavBar"
 import RadioEpisodesSection from "./RadioEpisodesSection"
@@ -14,6 +15,7 @@ const Home = function () {
         <SongsSection title="Edoardo Bennato" query="edoardo-bennato" />
         <SongsSection title="883" query="883" />
         <SongsSection title="Queen" query="queen" />
+        <ExploreSection/>
       </div>
     </div>
   )
